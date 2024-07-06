@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieLand</title>
+    <link rel="stylesheet" href="/dashbord.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body onload="dashBoardLoad()">
+    <div class="main-containerD">
+        <nav class="navBar">
+            <img src="/images/movieland-high-resolution-logo-transparent.png" alt="logo">
+            <a href="" id="homeTab" class="active">Home</a>
+            <a href="">Categories</a>
+            <a href="">++++</a>
+        </nav>
+        <div class="text">
+            <h2> Dashboard</h2>
+        </div>
+        <div class="box-contain">
+            <div class="btn-box">
+                <button class="btn" id="searchID" onclick="searchID()"> Search ID </button>
+            </div>
+            <div class="btn-box2">
+                <div class="movieUpdateClass">
+                    <h2> Upload Movie</h2>
+                    <label for="mName"> Name </label>
+                    <input type="text" id="mName" style="margin-left: 45px"><br><br>
+                    <label for="mId"> Movie ID </label>
+                    <input type="text" id="mId" style="margin-left: 15px"><br><br>
+                    <label for=mDescription> Description </label>
+                    <input  type="text" id="mDescription"><br>
+                    <button type="button"> Add </button>
+                </div>
+                <div class="tvSeriesUpdateClass">
+                    <h2> Upload tv Series</h2>
+                    <label for="sName"> Name </label>
+                    <input type="text" id="sName">
+                    <label for="sSeason"> Season Number </label>
+                    <input type="number" id="sSeason">
+                    <label for=sEpisodeNum> Episode Number </label>
+                    <input  type="number" id="sEpisodeNum">
+                    <label for="sID"> Episode ID </label>
+                    <input type="text" id="sID">
+                    <label for=sDescription> Description </label>
+                    <input  type="text" id="sDescription">
+                    <button type="button"> Add </button>
+                </div>
+                <div class="searchIdClass">
+                    <h2> Search Movies & Series</h2>
+                    <label for="SearchName"> Name </label>
+                    <input type="text" id="SearchName" >
+                    <button type="button" id="searchIDBtn"> search </button>
+                    <div class="answer-box"><ul id="list"></ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/dashbord.js"></script>
+</body>
+</html>

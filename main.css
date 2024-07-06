@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgba(232, 214, 232, 0.42);
+}
+.main-container{
+    width: 100vw;
+    height: 100vw;
+}
+.navBar{
+    background-color:#470039;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 50px 54px 30px -35px rgba(255,255,255,0.58) inset;
+    -webkit-box-shadow: 50px 54px 30px -35px rgba(255,255,255,0.58) inset;
+    -moz-box-shadow: 50px 54px 30px -35px rgba(255,255,255,0.58) inset;
+}
+.navBar a{
+    color: #eee5f4;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #CF38CF;
+    border-radius: 30px;
+    padding: 9px 25px;
+    margin: 10px;
+}
+.navBar a:hover{
+    background-color: #eee5f4;
+    border-color: #D14330;
+    color: #470039;
+}
+.active{
+    background-color: #eee5f4;
+    border-color: #D14330;
+    color: #470039 !important;
+}
+.navBar img{
+    width: 160px;
+    height: 40px;
+    margin-left: 40px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 70px;
+}
+#homeTab{
+    margin-left: 700px;
+}
+.body-container-1{
+    width: 100%;
+    height: 450px;
+    background: url("https://images6.alphacoders.com/114/1143146.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 30px;
+
+    img{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        right: 10px;
+        bottom: 32%;
+        background-color: #9235C3;
+        border-radius: 100%;
+        opacity: 80%;
+    }
+    img:hover{
+        width: 73px;
+        height: 73px;
+        background-color: #efe7f6;
+    }
+}
+.top-text{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 30%;
+    height: 60%;
+    background-color: rgba(71, 0, 57, 0.3);
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+
+    h2{
+        color: rgb(241, 225, 225);
+        font-size: 20px;
+    }
+}
+.top-text:hover{
+    background-color: rgba(209, 14, 199, 0.22);
+}
+.movie-boxes-1{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    h2{
+        font-size: 35px;
+        font-weight: bolder;
+        color: #470039;
+        background-color: #D5C1B3;
+        padding: 10px;
+        border-bottom: 50px solid rgba(71, 0, 57, 0.73);
+        box-shadow: -8px 9px 10px -3px rgba(76,5,77,0.75);
+        -webkit-box-shadow: -8px 9px 10px -3px rgba(76,5,77,0.75);
+        -moz-box-shadow: -8px 9px 10px -3px rgba(76,5,77,0.75);
+    }
+}
+.box-container{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#thriller{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 10px;
+    top: 750px;
+    background-color: #9235C3;
+    border-radius: 100%;
+    opacity: 80%;
+}
+#thriller:hover{
+    width: 73px;
+    height: 73px;
+    background-color: #efe7f6;
+}
+#Horror{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 10px;
+    top: 1050px;
+    background-color: #9235C3;
+    border-radius: 100%;
+    opacity: 80%;
+}
+#Horror:hover{
+    width: 73px;
+    height: 73px;
+    background-color: #efe7f6;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: -8px 9px 10px -3px rgba(76, 5, 77, 0.75);
+    -webkit-box-shadow: -8px 9px 10px -3px rgba(76, 5, 77, 0.75);
+    -moz-box-shadow: -8px 9px 10px -3px rgba(76, 5, 77, 0.75);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        color: honeydew;
+        font-size: 25px;
+        font-weight: normal;
+        bottom: 5px;
+        left: 10px;
+        background-color: rgba(71, 0, 57, 0.74);
+        padding: 8px;
+        margin: 0;
+    }
+    p{
+        color: honeydew;
+        font-size: 15px;
+        font-weight: bold;
+        bottom: 5px;
+        left: 10px;
+        background-color: rgba(71, 0, 57, 0.74);
+        padding-left: 8px;
+        padding-bottom: 6px;
+        margin: 0;
+    }
+}
+.box:hover{
+    border: 8px solid rgba(71, 0, 57, 0.81);
+    border-radius: 5px;
+}

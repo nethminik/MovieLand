@@ -1,0 +1,108 @@
+.main-containerD{
+    background-color: rgba(71, 0, 57, 0.38);
+    width: 100vw;
+    height: 900px;
+}
+
+.text{
+    font-size: 35px;
+    color: #150320;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    background-color: rgba(146, 53, 195, 0.47);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+
+    button{
+        width: 80%;
+        height: 80px;
+        font-size: 18px;
+    }
+}
+.btn-box2{
+    border: 1px solid black;
+    width: 60vw;
+    height: 400px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    button{
+        padding: 20px;
+        font-size: 20px;
+        width: 250px;
+        height: 30px;
+        background-color: #470039;
+        color: #D5C1B3;
+        text-align: center;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2{
+        font-size: 25px;
+        color: wheat;
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    input{
+        outline: none;
+    }
+}
+.box-contain{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+.movieUpdateClass{
+    width: 50%;
+    height: 300px;
+    background-color: rgba(71, 0, 57, 0.47);
+    padding: 15px;
+    color: #D5C1B3;
+}
+.tvSeriesUpdateClass{
+    width: 50%;
+    height: 500px;
+    background-color: rgba(71, 0, 57, 0.47);
+    padding: 15px;
+    color: #D5C1B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.searchIdClass{
+    width: 50%;
+    height: 200px;
+    background-color: rgba(94, 7, 76, 0.47);
+    padding: 15px;
+    color: #f1ede7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.answer-box{
+    width: 90%;
+    height: 300px;
+    border: 1px double #1b0b13;
+    font-size: 18px;
+    color: #170110;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}

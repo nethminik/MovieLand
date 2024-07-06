@@ -1,0 +1,43 @@
+.main-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 53, 195, 0.31);
+    height: 100vh;
+}
+.sign-up-container{
+    width: 450px;
+    height: 260px;
+    background-color: rgba(71, 0, 57, 0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+
+    h2{
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+        color: #150320;
+    }
+
+    label{
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    input{
+        font-size: 15px;
+        align-self: center;
+        outline: none;
+        margin-left: 10px;
+    }
+}
+#signUpBtn{
+    display: block;
+    margin-left: 300px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #150320;
+    color: #D5C1B3;
+}
